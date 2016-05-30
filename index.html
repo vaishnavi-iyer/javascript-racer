@@ -1,66 +1,21 @@
-<!<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>Javascript Racer</title>
-  <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/4.1.1/normalize.css">
-  <link rel="stylesheet" type="text/css" href="css/main.css"> 
-  <script src="js/script.js" type="text/javascript" charset="utf-8" async defer></script>
-</head>
-<body>
-<h1> Javascript Racer</h1>
-<table class="racer_table">
-  <tr id="player1_strip">
-    <td class="active1"></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr></tr>
-  <tr id="player2_strip">
-    <td class="active2"></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
-<div id="go"> <h4> Click go to start</h4></n><input type="button" value="go" id="go2" /> </div>
-<div id="text-area"class="hide"> <h4>Use A/a to move black car </h4> </n> <h4> Use L/l to move blue car</h4> </div>
-</body>
+    <head>
+    	<title>Javascript Racer - 2</title>
+    	<meta charset="UTF-8">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	    <script type="text/javascript" src="js/script.js"></script>
+      <link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+      <div id = "titles">Beat the clock to win the race!! </div> 
+        <div class="instructions">
+          Instructions <br>
+          Use Up and down arrow to move forward and backward <br>
+          Use the right left arrow to turn clock wise and anti clockwise direction
+        </div>
+      <div id="timer"> </div>
+    	<canvas id="canvas"> </canvas>
+      <div id="result"></div>
+	</body>
 </html>

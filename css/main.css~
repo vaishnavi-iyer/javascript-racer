@@ -10,7 +10,7 @@ html,body {
     position:relative;
     //left: 200;
     //top:200px;
-    background-image:url("../grass.jpg");
+    background-image:url("grass.jpg");
 }
 
 #titles{
